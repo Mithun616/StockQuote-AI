@@ -1,5 +1,5 @@
 # StockQuote AI
-
+## Author: Mithun Kumar G
 ### Azure-Integrated Stock Market Dashboard with Microsoft Foundry, Alpha Vantage MCP, FastAPI, and Azure Table Storage
 
 StockQuote AI is a deployed, full-stack stock market dashboard that connects a React frontend to a Python FastAPI backend, a Microsoft Foundry AI agent, the Alpha Vantage Model Context Protocol (MCP) server, and an Azure Logic App that stores stock quotes in Azure Table Storage.
@@ -31,7 +31,7 @@ The application allows users to search for a supported stock symbol, view its la
 ### Application preview
 
 <!-- Add your sanitized dashboard screenshot to screenshots/dashboard/dashboard-overview.png -->
-![StockQuote AI dashboard](screenshots/dashboard/dashboard-overview.png)
+<img width="1814" height="1062" alt="image" src="https://github.com/user-attachments/assets/162ebcac-7ed0-4db9-9a99-61d7e1409cd5" />
 
 ---
 
@@ -72,8 +72,6 @@ flowchart TD
 
 **Important:** The cache-first and provenance-verification paths reflect the optimized backend design. A successful Logic App write alone does not establish that the quote originated from a verified Alpha Vantage response.
 
-<!-- Optional: retain the existing architecture diagram at this path -->
-![StockQuote AI architecture](screenshots/architecture/architecture.png)
 
 ---
 
@@ -155,59 +153,72 @@ Screenshots document the actual development process. **Image links below are int
 
 ### 6.1 Azure resources and storage
 
-![Azure resources overview](screenshots/azure_services/resources-overview.png)
+<img width="1600" height="888" alt="azure 1" src="https://github.com/user-attachments/assets/b43b8347-ee8d-4793-83cb-a4e370676de4" />
+
 
 *Azure resources used by StockQuote AI.*
 
-![StockQuotes table](screenshots/azure_services/table-storage-records.png)
+<img width="1600" height="806" alt="WhatsApp Image 2026-10-25 at 9 11 07 PM" src="https://github.com/user-attachments/assets/b9f7a30b-4f03-4a29-a577-e98694af116e" />
+
 
 *Azure Table Storage entities created during workflow testing.*
 
 ### 6.2 Azure Logic App
 
-![Logic App workflow](screenshots/azure_services/logic-app-workflow.png)
+<img width="1600" height="887" alt="azure9" src="https://github.com/user-attachments/assets/b443d724-b910-422c-80ea-6ee28fbf9c4f" />
+
 
 *HTTP request trigger, Insert or Merge Entity action, and response action.*
 
-![Logic App entity configuration](screenshots/azure_services/logic-app-entity-action.png)
+<img width="1600" height="895" alt="azure 3" src="https://github.com/user-attachments/assets/bbb5c033-0129-4bb4-831d-6e6af19ab849" />
+
+<img width="1600" height="888" alt="azure 1" src="https://github.com/user-attachments/assets/1d48cb13-babc-445e-86f8-25376f0314fc" />
 
 *Table Storage connector and entity mapping.*
 
-![Logic App successful execution](screenshots/testing/logic-app-successful-run.png)
+<img width="1600" height="878" alt="azure8" src="https://github.com/user-attachments/assets/61a51ddd-4275-497e-a3c6-909a00dcd1ce" />
+
 
 *Successful workflow execution shown in Azure run history.*
 
 ### 6.3 Microsoft Foundry agent and MCP integration
 
-![Foundry agent configuration](screenshots/azure_services/foundry-agent.png)
+<img width="1600" height="862" alt="f1 (1)" src="https://github.com/user-attachments/assets/1024bc27-a079-46c2-a51d-aff9460fd205" />
+
 
 *StockQuoteAgent configured with `gpt-5-mini`.*
 
-![Alpha Vantage MCP configuration](screenshots/azure_services/alpha-vantage-mcp.png)
+<img width="1600" height="898" alt="f1 (2)" src="https://github.com/user-attachments/assets/ee44e48a-e487-44a9-b6d2-81051a6dd963" />
+
 
 *Custom MCP tool integration.*
 
-![MCP daily-series response](screenshots/testing/mcp-daily-series-response.png)
+<img width="1600" height="879" alt="f1 (4)" src="https://github.com/user-attachments/assets/4b2c3728-b6c3-458a-bf87-010718c02558" />
+
 
 *Foundry agent invoking `TIME_SERIES_DAILY` for historical market data.*
 
 ### 6.4 Python integration and testing
 
-![Python agent integration](screenshots/testing/python-agent-integration.png)
+<img width="1600" height="887" alt="f1 (8)" src="https://github.com/user-attachments/assets/5cb038ea-5cf8-419b-9b21-74367f640e3b" />
+
 
 *Python SDK integration with Microsoft Foundry and Azure Logic App.*
 
-![Automated test results](screenshots/testing/backend-tests.png)
+<img width="1600" height="833" alt="f1 (7)" src="https://github.com/user-attachments/assets/e9eb4d51-52d6-4b85-9ce2-8cf0885e25da" />
+
 
 *Backend test execution.*
 
 ### 6.5 Deployed application
 
-![Deployed dashboard](screenshots/dashboard/deployed-dashboard.png)
+<img width="1459" height="1059" alt="dash 3" src="https://github.com/user-attachments/assets/b45a069f-31f4-4f22-9421-984ebeeac2d4" />
+
 
 *Deployed StockQuote AI dashboard showing a quote, trading date, and storage status.*
 
-![Backend deployment](screenshots/deployment/backend-deployment.png)
+<img width="1600" height="950" alt="dash2" src="https://github.com/user-attachments/assets/d5063a43-3218-46c0-970f-88852b77b2fa" />
+
 
 *Azure App Service deployment and health verification.*
 
