@@ -382,12 +382,6 @@ StockQuote-AI-GitHub/
 ├── azure_config/            # Sanitized Azure configuration references
 ├── deployment/              # Deployment scripts and infrastructure templates
 ├── docs/                    # Additional project documentation
-├── screenshots/
-│   ├── architecture/
-│   ├── azure_services/
-│   ├── dashboard/
-│   ├── deployment/
-│   └── testing/
 ├── run-all.ps1
 ├── run-backend.ps1
 ├── run-frontend.ps1
