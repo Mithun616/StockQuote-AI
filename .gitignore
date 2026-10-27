@@ -1,0 +1,87 @@
+# ==============================================================================
+# StockQuote AI - Git Ignore Specification
+# Comprehensive protection for credentials, environments, dependencies & caches
+# ==============================================================================
+
+# 1. Environment & Secret Configuration Files (CRITICAL)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.cer
+*.secret
+*credentials*
+*secret*
+*.sas
+*appsettings*backup*.json
+*webapp_logs*.zip
+
+# 2. Python & Testing Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 3. Node & Frontend Artifacts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+dist-ssr/
+*.local
+
+# 4. Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# 5. OS & IDE Configuration
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# 6. Archive & Backup Packages
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+backend_deploy.zip
+StockQuoteAI_*.zip
