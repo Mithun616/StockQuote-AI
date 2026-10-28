@@ -148,24 +148,13 @@ The following headings summarize the implementation sequence without step-by-ste
 
 ## 6. Implementation Evidence
 
-The GitHub-hosted images below document development and deployment milestones. Before publishing or replacing images, review them for account identifiers, access keys, signed Logic App callback URLs, API tokens, and other credentials. Screenshots demonstrate the visible state at capture time, not continuous service availability.
-
 ### 6.1 Azure resources and storage
-
-<img width="1600" height="888" alt="azure 1" src="https://github.com/user-attachments/assets/b43b8347-ee8d-4793-83cb-a4e370676de4" />
-
 
 *Azure resources used by StockQuote AI.*
 
 <img width="1600" height="806" alt="WhatsApp Image 2026-10-25 at 9 11 07 PM" src="https://github.com/user-attachments/assets/b9f7a30b-4f03-4a29-a577-e98694af116e" />
 
-
-*Azure Table Storage entities created during workflow testing.*
-
 ### 6.2 Azure Logic App
-
-<img width="1600" height="887" alt="azure9" src="https://github.com/user-attachments/assets/b443d724-b910-422c-80ea-6ee28fbf9c4f" />
-
 
 *HTTP request trigger, Insert or Merge Entity action, and response action.*
 
@@ -179,6 +168,8 @@ The GitHub-hosted images below document development and deployment milestones. B
 
 
 *Successful workflow execution shown in Azure run history.*
+
+<img width="1917" height="1067" alt="image" src="https://github.com/user-attachments/assets/86fb6c0b-5777-4403-a7db-cea8673a0afe" />
 
 ### 6.3 Microsoft Foundry agent and MCP integration
 
@@ -194,8 +185,6 @@ The GitHub-hosted images below document development and deployment milestones. B
 
 <img width="1600" height="879" alt="f1 (4)" src="https://github.com/user-attachments/assets/4b2c3728-b6c3-458a-bf87-010718c02558" />
 
-
-*Foundry agent invoking `TIME_SERIES_DAILY` for historical market data.*
 
 ### 6.4 Python integration and testing
 
@@ -220,6 +209,10 @@ The GitHub-hosted images below document development and deployment milestones. B
 
 
 *Azure App Service deployment and health verification.*
+
+<img width="1919" height="1009" alt="image" src="https://github.com/user-attachments/assets/52b31e18-4102-46cc-bd5b-5ec59be4094a" />
+
+<img width="1917" height="162" alt="image" src="https://github.com/user-attachments/assets/5972d1c2-b77a-4ea4-82e8-f004ce6eea68" />
 
 ---
 
