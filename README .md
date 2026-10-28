@@ -384,7 +384,22 @@ This project provided practical experience connecting an AI agent to an external
 ## 14. Repository Organization
 
 The repository centers on the `backend/` FastAPI service, `frontend/` React application, deployment and configuration materials, and project documentation. File and directory names may change as the repository is cleaned up; refer to the GitHub file browser for the current structure.
+```text
 
+StockQuote-AI/
+├── backend/                 # FastAPI backend, Foundry integration, tests
+├── deployment/              # Azure deployment configurations and scripts
+├── docs/                    # Project documentation
+├── frontend/                # React, TypeScript, Vite dashboard
+├── .gitignore               # Git exclusion rules
+├── README.md                # Project documentation
+├── run-all.ps1              # Launch frontend and backend
+├── run-backend.bat           # Windows backend launcher
+├── run-backend.ps1           # PowerShell backend launcher
+├── run-frontend.bat          # Windows frontend launcher
+└── run-frontend.ps1         # PowerShell frontend launcher
+
+```
 ---
 
 ## 15. Disclaimer
