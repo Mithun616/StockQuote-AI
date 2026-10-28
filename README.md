@@ -159,9 +159,6 @@ The GitHub-hosted images below document development and deployment milestones. B
 
 <img width="1600" height="806" alt="WhatsApp Image 2026-10-25 at 9 11 07 PM" src="https://github.com/user-attachments/assets/b9f7a30b-4f03-4a29-a577-e98694af116e" />
 
-
-*Azure Table Storage entities created during workflow testing.*
-
 ### 6.2 Azure Logic App
 
 <img width="1600" height="887" alt="azure9" src="https://github.com/user-attachments/assets/b443d724-b910-422c-80ea-6ee28fbf9c4f" />
@@ -179,6 +176,9 @@ The GitHub-hosted images below document development and deployment milestones. B
 
 
 *Successful workflow execution shown in Azure run history.*
+
+<img width="1912" height="1067" alt="image" src="https://github.com/user-attachments/assets/737f67eb-09af-4c6b-a67a-c3ac0de306c2" />
+
 
 ### 6.3 Microsoft Foundry agent and MCP integration
 
@@ -216,10 +216,14 @@ The GitHub-hosted images below document development and deployment milestones. B
 
 *Deployed StockQuote AI dashboard showing a quote, trading date, and storage status.*
 
-<img width="1600" height="950" alt="dash2" src="https://github.com/user-attachments/assets/d5063a43-3218-46c0-970f-88852b77b2fa" />
+<img width="1522" height="1045" alt="WhatsApp Image 2026-10-27 at 10 23 38 PM" src="https://github.com/user-attachments/assets/a6f52f89-2b33-41de-888b-c84f4e4091ba" />
 
 
 *Azure App Service deployment and health verification.*
+
+<img width="1919" height="1057" alt="image" src="https://github.com/user-attachments/assets/7f647b65-dd52-4b0f-b1ad-a41c11e12920" />
+
+<img width="1919" height="256" alt="image" src="https://github.com/user-attachments/assets/eb06389c-c32f-495e-8ba9-c078c8032bd0" />
 
 ---
 
